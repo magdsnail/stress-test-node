@@ -1,0 +1,18 @@
+{
+  "logger": {
+    "title": "stress-test",
+    "level": "debug",
+    "pretty": true,
+    "color": "level"
+  },
+  "api": {
+    baseUrl: "http://127.0.0.1:8080",
+    timeout: 10000,
+  },
+  "mqtt": {
+    "host": "127.0.0.1",
+    "port": 1883,
+    "username": "admin",
+    "password": "admin"
+  }
+}

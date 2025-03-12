@@ -1,0 +1,20 @@
+{
+  "name": "stress-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "压力测试",
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.2",
+    "axios": "^1.8.1",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "mqtt": "^5.10.4",
+    "nanoid": "^3.3.9",
+    "poplar-logger": "^1.1.2"
+  }
+}
